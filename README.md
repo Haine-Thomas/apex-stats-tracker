@@ -1,1 +1,2 @@
 # apex-stats-tracker
+Une app pour track les stats d'un joueur recherché sur APEX. Codé en nodeJS et Vue.js, API sur tracker.gg
