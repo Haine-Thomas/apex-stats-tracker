@@ -1,11 +1,13 @@
 {
   "name": "apextracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Une app pour track les stats d'un joueur recherché sur APEX. Codé en nodeJS et Vue.js, API sur tracker.gg https://tenor.com/8epL.gif",
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "client": "npm run serve --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "type": "git",
